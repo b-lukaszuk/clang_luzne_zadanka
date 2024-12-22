@@ -8,6 +8,19 @@ The book is available freely under [CC-BY-NC-4.0](https://creativecommons.org/li
 
 # Chapter 2. Variables and types
 
+## Task 1
+
+Original task number: 2.1 b and e
+
+[...] write a program that creates variables `day`, `month` and `year`
+and
+[...] total output is:
+
+American format:
+mm/dd/yyyy
+European format:
+dd.mm.yyyy
+
 # Usage example
 
 ## Compilation
