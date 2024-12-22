@@ -16,10 +16,10 @@ Original task number: 2.1 b and e
 and
 [...] total output is:
 
-American format:
-mm/dd/yyyy
-European format:
-dd.mm.yyyy
+American format:<br>
+mm/dd/yyyy<br>
+European format:<br>
+dd.mm.yyyy<br>
 
 # Usage example
 
