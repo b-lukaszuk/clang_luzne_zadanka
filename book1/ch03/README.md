@@ -17,9 +17,9 @@ Many computations can be expressed concisely using the "multadd" operation (a\*b
 Write a function `Multadd()` that prints multadditionizaiton.<br>
 Invoke it in `main()` with a few parameters, like 1.0, 2.0, 3.0 (returns 5).<br>
 Use `Multadd()` to compute the following value:<br>
-$sin \frac{\pi}{4} + \frac{cos*\frac{\pi}{4}}{2}$<br>
+$sin\ \frac{\pi}{4} + \frac{cos\ \frac{\pi}{4}}{2}$<br>
 Write a function called `Yikes()` that takes a double as a parameter and that uses `Multadd()` to calculate and print:<br>
-$x*e^{-x} + \sqrt{1 - e^{-x}}$<br>
+$xe^{-x} + \sqrt{1 - e^{-x}}$<br>
 
 HINT: the Math function for raising `e` to a power is `double exp(double x)`.
 
