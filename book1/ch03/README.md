@@ -32,6 +32,13 @@ gcc hello.c # compilation
 ./a.out # execution
 ```
 
+or (when using `#include <math.h>`)
+
+```bash
+gcc hello.c -lm # compilation
+./a.out # execution
+```
+
 ## Caution note
 
 **The content of this folder may be incorrect, erroneous and/or harmful. Use it at Your own risk.**
