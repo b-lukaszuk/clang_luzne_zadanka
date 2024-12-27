@@ -10,7 +10,7 @@ The book is available freely under [CC-BY-NC-4.0](https://creativecommons.org/li
 
 ## Task 1
 
-Original task number: 3.4
+Original exercise number: 3.4
 
 Many computations can be expressed concisely using the "multadd" operation (a\*b+c):
 

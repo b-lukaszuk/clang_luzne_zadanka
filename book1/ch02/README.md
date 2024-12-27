@@ -10,7 +10,7 @@ The book is available freely under [CC-BY-NC-4.0](https://creativecommons.org/li
 
 ## Task 1
 
-Original task number: 2.1 b and e
+Original exercise number: 2.1 b and e
 
 [...] write a program that creates variables `day`, `month` and `year`
 and
