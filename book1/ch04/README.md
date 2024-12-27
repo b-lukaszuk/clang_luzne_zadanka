@@ -8,6 +8,18 @@ The book is available freely under [CC-BY-NC-4.0](https://creativecommons.org/li
 
 # Chapter 4. Conditionals and recursion
 
+## Task 1
+
+Original exercise number: 4.4
+
+Write a function named `raiseXToPowN(x, n)` that does what its name implies.
+
+Prove that the Fermat's theorem:
+
+$a^n + b^n = c^n$
+
+is true only for `n = 2` (`a`, `b`, and `c` are some integers).
+
 # Usage example
 
 ## Compilation
