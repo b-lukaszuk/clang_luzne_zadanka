@@ -8,6 +8,14 @@ The book is available freely under [CC-BY-NC-4.0](https://creativecommons.org/li
 
 # Chapter 5. Fruitful functions
 
+## Task 1
+
+Original exercise number: 5.1
+
+Write a function named `IsTriangle()` that takes three integers as arguments and returns `TRUE` if you can build a triangle from the sides of that length or `FALSE` if you cannot do that.
+
+Hint: if any of the three lengths is greater than the sum of the other two then you cannot build a triangle. Otherwise, you can
+
 # Usage example
 
 ## Compilation
