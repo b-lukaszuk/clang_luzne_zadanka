@@ -16,6 +16,27 @@ Write a function named `IsTriangle()` that takes three integers as arguments and
 
 Hint: if any of the three lengths is greater than the sum of the other two then you cannot build a triangle. Otherwise, you can
 
+## Task 2
+
+Original exercise number: 5.5
+
+Implement a recursive function for `gcd` (greatest common divisor) using [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm):
+
+$$
+\begin{align*}
+gcd(a, b) = \left\{
+    \begin {aligned}
+         & a \quad & \text{if }\ b = 0 \\
+         & gcd(b, r) \quad & \text{otherwise}
+    \end{aligned}
+\right.
+\end{align*}
+$$
+
+where:<br>
+`a` and `b` are some two integers<br>
+`r` is a reminder when `a` is divided by `b`<br>
+
 # Usage example
 
 ## Compilation
