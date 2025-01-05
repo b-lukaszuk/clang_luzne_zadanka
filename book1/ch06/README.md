@@ -8,6 +8,12 @@ The book is available freely under [CC-BY-NC-4.0](https://creativecommons.org/li
 
 # Chapter 6. Iteration
 
+## Task 1
+
+Original exercise number: 6.2
+
+Write a function named `Power()` that rises integer to the n-th power using loops.
+
 # Usage example
 
 ## Compilation
