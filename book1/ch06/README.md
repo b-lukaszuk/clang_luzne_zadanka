@@ -21,8 +21,8 @@ Original exercise number: 6.3
 Write a function for finding square root of a number (`a`):
 
 1. Start with a guess `x0` (`a/2`),
-2. If the guess squared is equal to `a` (difference no greater than 0.0001) then
-   return `x0`,
+2. If the guess squared is equal to `a` (absolute difference no greater than
+   0.0001) then return `x0`,
 3. Else get new guess `x1` based on formula:
 
 $x_1 = (x_0 + a/x_0)/2$
