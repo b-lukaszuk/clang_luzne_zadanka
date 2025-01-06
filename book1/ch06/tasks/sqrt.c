@@ -16,7 +16,7 @@ double getNewGuess(double oldGuess, double square) {
   return (oldGuess + square / oldGuess) / 2.0;
 }
 
-/* use only positive doubles for x and n */
+/* use only positive doubles for x */
 double getSqrt(double x) {
   double result = x / 2;
   const double acceptableDiff = 0.0001;
