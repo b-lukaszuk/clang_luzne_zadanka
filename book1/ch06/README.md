@@ -39,14 +39,11 @@ $e^{-x^2} = 1 - 2x + 3x^{2}/2! - 4x^{3}/3! + 5x^{4}/4! - ...$
 
 In other words, we need to add up a series of terms where the $i$-th term is equal to $(-1)^{i}(i+1)x^{i}/i!$. Write a function named `Gauss` that takes `x` and `n` as arguments and returns the sum of the first `n` terms of the series.
 
-**Note**. It appears that the author gave incorrect expansion for the $i$-th term.
-[The Taylor series](https://en.wikipedia.org/wiki/Taylor_series) is:
+**Note**. It appears that the author gave incorrect expansion for the infinite series. Wikipedia's [the Taylor series](https://en.wikipedia.org/wiki/Taylor_series) gives:
 
 $e^x = \sum\limits_{i=0}^{\infty} \frac{x^n}{n!}$
 
-So in our case an $i$-th term is calculated as:
-
-$(-1)^{i} * \frac{x^i}{i!}$
+Where we need to replace $x$ with $-x^2$.
 
 # Usage example
 
