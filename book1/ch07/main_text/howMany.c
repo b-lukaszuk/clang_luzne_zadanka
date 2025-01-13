@@ -27,6 +27,8 @@ void printArray(int array[], int length) {
   printf("]\n");
 }
 
+/* funny, in C you cannot determine the size of an array in the function */
+/* or at least it is not trivial */
 int howManyVals(int array[], int length, int value) {
   int count = 0;
   for (int i = 0; i < length; i++) {
