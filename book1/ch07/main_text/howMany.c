@@ -39,12 +39,14 @@ int howManyVals(int array[], int length, int value) {
 
 int main(void) {
 
-  srand(time(NULL));
   const int len = 10;
+  const int upBound = 6;
   int arr1[len];
   int arr2[len];
-  RandomizeArray(arr1, len, 6);
-  RandomizeArray(arr2, len, 6);
+
+  srand(time(NULL));
+  RandomizeArray(arr1, len, upBound);
+  RandomizeArray(arr2, len, upBound);
 
   printf("Counting 1s in a random array: ");
   printArray(arr1, len);
