@@ -12,9 +12,16 @@ The book is associated with this [github repo](https://github.com/orangeduck/Bui
 
 ## Compilation
 
-``` bash
+```bash
 gcc hello.c # compilation
 ./a.out # execution
+```
+
+or (like in in the book's introduction)
+
+```bash
+cc -std=c99 -Wall hello.c -o hello # compilation
+./hello # execution
 ```
 
 ## Caution note
