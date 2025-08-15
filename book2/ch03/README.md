@@ -1,4 +1,4 @@
-j# Description
+# Description
 
 Selected bits/tasks from "Build your own Lisp", written at a whim, maybe modified, used for educational purposes.
 
