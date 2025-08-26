@@ -31,18 +31,28 @@ int getIndexOfMaxInRange(int array[], uint len) {
   return maxInd;
 }
 
+void swapElements(int *array, uint ind1, uint ind2) {
+  int elt1 = array[ind1];
+  int elt2 = array[ind2];
+  array[ind1] = elt2;
+  array[ind2] = elt1;
+}
+
 int main(void) {
   srand(time(NULL));
   int arrLen = getRandInt(5, 10);
   int arr[arrLen];
+  uint maxInd = getIndexOfMaxInRange(arr, arrLen);
   for (int i = 0; i < arrLen; i++) {
     srand(time(NULL) + i);
     arr[i] = getRandInt(1, 11);
   }
   printf("the array:\n");
   printArray(arr, arrLen);
-  printf("index of max in the array is: %i\n",
-         getIndexOfMaxInRange(arr, arrLen));
-  printf("Thats all. Goodbye.");
+  printf("index of max in the array is: %i\n", maxInd);
+  printf("swapping elt 0 with elt max, result:\n");
+  swapElements(arr, 0, maxInd);
+  printArray(arr, arrLen);
+  printf("Thats all. Goodbye.\n");
   return EXIT_SUCCESS;
 }
