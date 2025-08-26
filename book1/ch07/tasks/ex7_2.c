@@ -46,6 +46,6 @@ int main(void) {
          getIndexOf(arr, arrLen, target1));
   printf("index of first %i in the array, result %i\n", target2,
          getIndexOf(arr, arrLen, target2));
-  printf("Thats all. Goodbye.");
+  printf("Thats all. Goodbye.\n");
   return EXIT_SUCCESS;
 }
