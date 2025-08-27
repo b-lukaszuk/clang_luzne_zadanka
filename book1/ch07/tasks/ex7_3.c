@@ -38,20 +38,26 @@ void swapElements(int *array, uint ind1, uint ind2) {
   array[ind2] = elt1;
 }
 
+void sortArray(int *array, uint len) {
+    int maxInd = 0;
+    for (int i = 0; i < len; i++) {
+        maxInd = getIndexOfMaxInRange(&array[i], len-i) + i;
+        swapElements(array, i, maxInd);
+    }
+}
+
 int main(void) {
   srand(time(NULL));
   int arrLen = getRandInt(5, 10);
   int arr[arrLen];
-  uint maxInd = getIndexOfMaxInRange(arr, arrLen);
   for (int i = 0; i < arrLen; i++) {
     srand(time(NULL) + i);
     arr[i] = getRandInt(1, 11);
   }
   printf("the array:\n");
   printArray(arr, arrLen);
-  printf("index of max in the array is: %i\n", maxInd);
-  printf("swapping elt 0 with elt max, result:\n");
-  swapElements(arr, 0, maxInd);
+  printf("sorting the array in descending order, result:\n");
+  sortArray(arr, arrLen);
   printArray(arr, arrLen);
   printf("Thats all. Goodbye.\n");
   return EXIT_SUCCESS;
