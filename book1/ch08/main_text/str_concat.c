@@ -7,7 +7,7 @@ int main(void) {
   char bakedGood[] = " nut bread";
 
   printf("concatenating '%s' and '%s'\n", fruit, bakedGood);
-  strncat(fruit, bakedGood, 10);
+  strncat(fruit, bakedGood, strlen(bakedGood));
   printf("result: '%s'\n", fruit);
 
   return EXIT_SUCCESS;
