@@ -6,6 +6,8 @@ int main(void) {
   // char word[] = "potato";
   // char word[] = "allium";
   char word[] = "banana";
+  // you cannot compare strings directly, with:
+  // if (word == "banana")
   int cmpResult = strcmp(word, "banana");
   if (cmpResult < 0) {
     printf("Your word, '%s', comes before banana.\n", word);
