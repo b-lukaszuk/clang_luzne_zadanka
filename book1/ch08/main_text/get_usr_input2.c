@@ -1,15 +1,18 @@
 #include <stdio.h>
 #define EXIT_SUCCESS 0;
 
+void cleanInputBuffer() {
+  char ch; // helper variable, it stores discarded chars
+  while ((ch = getchar()) != '\n' && ch != EOF);
+}
+
 int getInt() {
   int success, x;
-  char ch; // helper variable, it stores discarded chars
   printf("Enter an integer: \n");
   success = scanf("%i", &x);
   while (success != 1) {
     printf("That isn't an integer. Please try again.\n");
-    // empty the input buffer
-    while ((ch = getchar()) != '\n' && ch != EOF);
+    cleanInputBuffer();
     success = scanf("%i", &x);
   }
   return x;
