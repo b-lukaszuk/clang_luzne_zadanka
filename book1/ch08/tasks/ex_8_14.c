@@ -6,6 +6,9 @@
 
 int isAbecedarianIter(char *s) {
   int len = strlen(s);
+  if (len < 2) {
+    return TRUE;
+  }
   for (int i = 1; i < len; i++) {
     if (s[i - 1] >= s[i]) {
       return FALSE;
