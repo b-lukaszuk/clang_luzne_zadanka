@@ -18,10 +18,11 @@ int isAbecedarianIter(char *s) {
 }
 
 int isAbecedarianRec(char *s, int i) {
-  if (i < 1 || i >= strlen(s)) {
+  int len = strlen(s);
+  if (i < 1 || i >= len) {
     i = 1;
   }
-  if (i >= strlen(s) || i + 1 >= strlen(s)) {
+  if (i >= len || i + 1 >= len) {
     return TRUE;
   } else if (s[i - 1] >= s[i]) {
     return FALSE;
