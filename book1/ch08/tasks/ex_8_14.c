@@ -22,7 +22,7 @@ int isAbecedarianRec(char *s, int i) {
   if (i < 1 || i >= len) {
     i = 1;
   }
-  if (i >= len || i + 1 >= len) {
+  if (i + 1 >= len) {
     return TRUE;
   } else if (s[i - 1] >= s[i]) {
     return FALSE;
