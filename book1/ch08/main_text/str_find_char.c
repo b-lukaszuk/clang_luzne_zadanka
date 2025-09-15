@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#define EXIT_SUCCESS 0;
+#define EXIT_SUCCESS 0
 
 int locateCharacter(char *s, char c) {
   int i = 0;

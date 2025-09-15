@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define EXIT_SUCCESS 0;
+#define EXIT_SUCCESS 0
 
 void cleanInputBuffer() {
   char ch; // helper variable, it stores discarded chars

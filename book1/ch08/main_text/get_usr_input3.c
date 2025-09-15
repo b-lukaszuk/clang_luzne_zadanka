@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define EXIT_SUCCESS 0;
+#define EXIT_SUCCESS 0
 
 int main(void) {
   char name[80];

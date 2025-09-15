@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
-#define EXIT_SUCCESS 0;
-#define TRUE 1;
-#define FALSE 0;
+#define EXIT_SUCCESS 0
+#define TRUE 1
+#define FALSE 0
 
 int isAbecedarianIter(char *s) {
   int len = strlen(s);
