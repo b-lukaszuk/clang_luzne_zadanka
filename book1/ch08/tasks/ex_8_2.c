@@ -9,6 +9,9 @@
 int getIndex(char c) { return (int)tolower(c) - LOW_LETT_A_ASCII; }
 
 // make sure s contains only letters: [a-z] or [A-Z]
+// the array in function is static
+// so the array is retained (is the same between the function executions)
+// so dont' use it more than on 1 string in main()
 int *getLetterHist(char *s) {
   static int hist[ALPHABET_LEN] = {0};
   for (int i = 0; i < strlen(s); i++) {
